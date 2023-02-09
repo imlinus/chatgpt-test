@@ -1,13 +1,14 @@
 {
   "name": "chatgpt-test",
   "version": "0.1.0",
-	"type": "module",
-	"scripts": {
-		"start": "node ./server.js"
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
   },
   "dependencies": {
-		"express": "latest",
-		"cors": "latest",
+    "express": "latest",
+    "cors": "latest",
     "openai": "latest"
   }
 }
